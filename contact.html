@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Black Ink Tattoo</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #C88B22;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b>Black Ink Tattoo</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="artists.html">Artist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Works
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: rgb(226, 136, 32);">
+                    <li><a class="dropdown-item" href="works.html">Old School</a></li>
+                    <li><a class="dropdown-item" href="works.html">Black & Grey</a></li>
+                    <li><a class="dropdown-item" href="works.html">Neo Tradi</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="backgroundContact">
+          <article>
+              <h1 class="colorText">Reserva Tu Turno</h1>
+          </article>
+          <article>
+              <h3 class="colorText">Dirección</h3>
+              <div class="colorText">Av. Rivadavia 0000</div>
+              <div class="colorText">Capital Federal</div>
+              <div class="colorText">Tel: (011)4682-8012</div>
+          </article>
+          <article>
+              <h3 class="colorText">Horarios</h3>
+              <div class="colorText">Lun - Sab: 10am - 20pm</div>
+          </article>
+          <aside>
+              <form action="./error.html" method="get">
+                  <input type="name" placeholder="Nombre" required class="forms">
+                  <div> <input type="tel" placeholder="Teléfono" required class="forms"></div>
+                  <div> <input type="email" placeholder="Email" required class="forms"> </div>
+                  <div>
+                      <label for="Estilos" required class="colorText">Estilo a Realizar</label>
+                      <select name="Estilos" id="Estilos" class="forms">
+                          <option value="tradicional">Old School </option>
+                          <option value="neotradicional">New School</option>
+                          <option value="blackandgrey">Black & Grey</option>
+                          <option value="realismo">Realismo</option>
+                          <option value="letras">Lettering</option>
+                          <option value="blackwork">Blackwork</option>
+                          <option value="japones">Japonés</option>
+                      </select>
+                  </div>
+                  <textarea name="Descripción" id="Descripción" cols="30" rows="10" placeholder="Idea del Tattoo"
+                      required class="forms"></textarea>
+                  <div class="colorText">Soy mayor de 18 años<input type="Checkbox" required > </div>
+                  <input type="submit" value="Enviar" class="forms">
+                  <input type="reset" value="Limpiar" class="forms">
+              </form>
+  
+          </aside>
+          <footer class="foot">
+              <h6 class="colorText">Black Ink Tattoo</h6>
+              <span>
+                  <a href="https://www.facebook.com/" ><img src="Media/facebooklogo.png" alt="" width="30px"></a>
+                  <a href="https://www.instagram.com/" ><img src="Media/instagram.png" alt="" width="30px"></a>
+                  <a href="https://twitter.com/" ><img src="Media/twitter.png" alt="" width="30px"></a> 
+              </span>
+          </footer>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
