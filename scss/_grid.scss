@@ -1,0 +1,45 @@
+.gridHome{
+    display: grid;
+    grid-template-areas: 
+    "encabezado encabezado encabezado encabezado"
+    "principal principal principal principal"
+    "texto texto texto texto"
+    "ubicacion ubicacion ubicacion ubicacion"
+    "pieDePagina pieDePagina pieDePagina pieDePagina" 
+    ;
+}
+
+.headerHome{
+    grid-area: encabezado;
+    margin-bottom: 3rem;
+
+}
+
+.articleUno{
+    grid-area: principal;
+  position: relative;
+}
+
+.articleDos{
+    grid-area: texto;
+    height: 20vh;
+   text-align: center;
+   padding: 2.5rem  1.5rem 0  1.5rem;
+}
+
+.articleTres{
+    grid-area: ubicacion;
+    padding-left: 25vw;
+    
+}
+
+.footHome{
+    color: white;
+    grid-area: pieDePagina;
+    display: flex;
+    align-items:center;
+}
+
+.maps{
+    margin-top: 5rem;
+}
