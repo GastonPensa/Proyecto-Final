@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+
+    .textOrigin {
+        @extend %textOrigin;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color: white;
+    }
+    p{
+        @extend %textOrigin;
+    }
+    form{
+        @extend %flexForm;
+    }
+
+   .foot{
+       @extend %foot;
+       
+       img{
+           width: 30px;
+       }
+   }
+}

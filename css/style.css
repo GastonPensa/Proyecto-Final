@@ -1,0 +1,63 @@
+section div img {
+  width: 410px;
+  height: 410px;
+  margin: 3px;
+  padding: 3px; }
+
+body .textOrigin, body p, th, .colorText {
+  color: white;
+  text-align: center;
+  word-spacing: 3px; }
+
+body .foot {
+  color: white;
+  text-align: center;
+  display: block;
+  position: bottom 10px; }
+
+.listaPremios {
+  text-decoration: none;
+  background-color: #2e2e2e;
+  padding: 3px;
+  margin: 6px; }
+
+body form {
+  display: flex;
+  justify-items: flex-end;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  background-color: black; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    color: white; }
+  body .foot img {
+    width: 30px; }
+
+.table {
+  list-style-position: inside;
+  border: #a76e19 solid;
+  background-color: #2e2e2e; }
+
+.forms {
+  border: #a76e19 3px solid;
+  margin: 3px;
+  background-color: seashell; }
+
+section {
+  display: flex;
+  margin-top: 30px; }
+  section div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }

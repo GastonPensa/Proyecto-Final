@@ -1,0 +1,36 @@
+%galeriaWorks{
+    width: 410px;
+    height: 410px;
+    margin: 3px;
+    padding: 3px;
+}
+
+%textOrigin{
+    color: white;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+%foot{
+    color: white;
+    text-align: center;
+    display: block;
+    position: bottom 10px;
+}
+
+%logros{
+    text-decoration: none;
+    background-color: rgb(46, 46, 46);
+    padding: 3px;
+    margin: 6px;
+}
+
+%flexForm{
+    display: flex;
+    justify-items: flex-end;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

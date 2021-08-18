@@ -1,0 +1,23 @@
+.listaPremios{
+    @extend %logros;
+}
+
+th{
+    @extend %textOrigin;
+}
+.colorText{
+    @extend %textOrigin; 
+}
+
+
+.table{
+    list-style-position: inside;
+    border:rgb(167, 110, 25) solid;
+    background-color: rgb(46, 46, 46);    
+}
+
+.forms{
+    border: rgb(167, 110, 25) 3px solid;
+    margin: 3px;
+    background-color: seashell;
+}

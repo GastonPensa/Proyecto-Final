@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    margin-top: 30px;
+
+    div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    
+        img{
+            @extend %galeriaWorks;
+        }
+    }
+}
