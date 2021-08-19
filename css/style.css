@@ -60,6 +60,11 @@ body {
   margin: 3px;
   background-color: seashell; }
 
+.backgroundContact{
+    background-image: url(/Proyecto-Final/Media/backgroundContact.jpeg);
+    background-size: cover;
+    background-position: bottom;
+}
 section {
   display: flex;
   margin-top: 30px; }
